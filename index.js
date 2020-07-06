@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const fs = require("fs");
 const resolveConfig = require("tailwindcss/resolveConfig");
 const tailwindConfig = require(__dirname + "/tailwind.config.js");
