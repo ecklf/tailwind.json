@@ -1,0 +1,28 @@
+{
+  "name": "tailwind.json",
+  "version": "1.0.0",
+  "description": "Quickly generate a resolved tailwind.json",
+  "main": "index.js",
+  "author": "impulse",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "tailwind",
+    "tailwind.json",
+    "json"
+  ],
+  "bin": {
+    "tailwind-resolve": "./index.js"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.4.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/impulse/tailwind.json.git"
+  },
+  "bugs": {
+    "url": "https://github.com/impulse/tailwind.json/issues"
+  },
+  "homepage": "https://github.com/impulse/tailwind.json#readme"
+}
