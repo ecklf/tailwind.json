@@ -1,28 +1,14 @@
 {
   "name": "tailwind.json",
-  "version": "1.0.4",
-  "description": "Quickly generate a resolved tailwind.json",
+  "version": "1.0.0",
   "main": "index.js",
-  "author": "impulse",
+  "repository": "https://github.com/impulse/tailwind.json.git",
+  "author": "impulse <ecklf@icloud.com>",
   "license": "MIT",
-  "private": false,
-  "keywords": [
-    "tailwind",
-    "tailwind.json",
-    "json"
-  ],
-  "bin": {
-    "tailwind-resolve": "./index.js"
+  "scripts": {
+    "gen": "npx tailwind.json"
   },
-  "dependencies": {
-    "tailwindcss": "^1.4.6"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/impulse/tailwind.json.git"
-  },
-  "bugs": {
-    "url": "https://github.com/impulse/tailwind.json/issues"
-  },
-  "homepage": "https://github.com/impulse/tailwind.json#readme"
+  "devDependencies": {
+    "@tailwindcss/ui": "^0.3.0"
+  }
 }
