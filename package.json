@@ -3,7 +3,7 @@
   "version": "1.0.4",
   "description": "Quickly generate a resolved tailwind.json",
   "main": "index.js",
-  "author": "impulse",
+  "author": "ecklf",
   "license": "MIT",
   "private": false,
   "keywords": [
@@ -15,14 +15,14 @@
     "tailwind-resolve": "./index.js"
   },
   "dependencies": {
-    "tailwindcss": "^1.4.6"
+    "tailwindcss": "^2.1.4"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/impulse/tailwind.json.git"
+    "url": "git+https://github.com/ecklf/tailwind.json.git"
   },
   "bugs": {
-    "url": "https://github.com/impulse/tailwind.json/issues"
+    "url": "https://github.com/ecklf/tailwind.json/issues"
   },
-  "homepage": "https://github.com/impulse/tailwind.json#readme"
+  "homepage": "https://github.com/ecklf/tailwind.json#readme"
 }
