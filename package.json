@@ -1,6 +1,6 @@
 {
   "name": "tailwind.json",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "Quickly generate a resolved tailwind.json",
   "main": "index.js",
   "author": "ecklf",
